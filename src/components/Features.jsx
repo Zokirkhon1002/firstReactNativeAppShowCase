@@ -3,7 +3,6 @@ import React from "react";
 // styles and assets
 import styles from "../styles/Global";
 import assets from "../assets";
-import Button from "./Button";
 
 const FeatureCard = ({ iconUrl, iconText }) => (
   <div className={[styles.featureCard].join(" ")}>
